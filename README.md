@@ -11,13 +11,23 @@ Celery settings inside of the settings.py
 ---------------------------------------------------------------
 
 Steps for running
+
+
 1. install the requirments.txt file
+
+
 2. python manage.py runserver
+
+
 3.create Task,update task,create task tracker(http://localhost:8000/task-tracker/),update task tracker
+
 
 4.Celery beat open Terminal:  celery -A convin_task_project beat -l info
 
+
 5.run Celery worker celery -A convin_task_project worker -l info
+
+
 
 all are available swagger doc
 
