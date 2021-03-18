@@ -11,9 +11,10 @@ Celery settings inside of the settings.py
 ---------------------------------------------------------------
 
 Steps for running
+---------------------------------------------------------------
 
 
-1. install the requirments.txt file
+1. install the requirements.txt file
 
 
 2. python manage.py runserver
